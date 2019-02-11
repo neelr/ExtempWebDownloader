@@ -39,12 +39,12 @@ while len(websites)>0:
 
         #Download file function
         def download_file(download_url):
-                #response = urllib2.urlopen(download_url)
-                #soup = BeautifulSoup(urllib2.urlopen(download_url))
-                #file = open(soup.title.string+".html", 'w')
-                #file.write(response.read())
-                #file.close()
-                print("Completed")
+		print download_url
+                response = urllib2.urlopen(download_url)
+                soup = BeautifulSoup(urllib2.urlopen(download_url))
+                file = open(soup.title.string+".html", 'w')
+                file.write(response.read())
+                file.close()
         #Loop to download links
         while len(links)>0:
                 try:
@@ -58,6 +58,6 @@ while len(websites)>0:
         if len(websites)==0:
                 print "Ended! Thank you for using this tool and make sure to visit https://www.tecton.tk"
                 print "---------------------------------------------------------------------------------------------------------------------------------------"
-os.chdir("/home/pi/ExtempOffline")
+os.chdir("/home/neel_redkar/ExtempWebDownloader")
 
 
