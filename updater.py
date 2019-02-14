@@ -3,6 +3,8 @@
 import urllib2
 import re
 import feedparser
+import os
+import datetime
 #define Variables
 
 #to count how many links it has downloaded
@@ -29,11 +31,11 @@ def download_file(download_url):
                         file.close()
                         print("Completed")
 while len(websites)>0:
-                d = feedparser.parse(websites[0])
+        d = feedparser.parse(websites[0])
         #Loop to download links
-        while len(links)>0:
+        while len(d.entries)>0:
                 try:
-                        download_file(d.entries[0]['link'])
+#                        download_file(d.entries[0]['link'])
                         print "Completed",d.entries[0]['link']
                 except:
                         print "ERROR"
