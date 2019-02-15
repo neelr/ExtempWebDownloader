@@ -24,10 +24,14 @@ Hello! This is a resource where you can mass download and update articles for ex
 
 
 ## Websites
-All websites downloaded from:`"https://www.independent.ie/world-news/", "https://www.reuters.com/news/world", "https://abcnews.go.com/",
-"https://www.aljazeera.com/news/", "https://www.theatlantic.com/", "https://www.theatlantic.com/politics/",
-"https://www.theguardian.com/world", "https://www.bbc.com/news/world",
-'https://www.washingtonpost.com/world/?utm_term=.e6e878c71a42', "https://www.nbcnews.com/world"`
+All websites downloaded from:`"https://www.aljazeera.com/xml/rss/all.xml","https://abcnews.go.com/abcnews/internationalheadlines",
+"https://www.cnbc.com/id/100727362/device/rss/rss.html","http://feeds.reuters.com/Reuters/worldNews",
+"https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en",
+"https://www.reddit.com/r/worldnews/.rss","http://feeds.bbci.co.uk/news/world/rss.xml","https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml",
+"https://www.buzzfeed.com/world.xml","https://defence-blog.com/feed","https://www.e-ir.info/category/blogs/feed/",
+'http://www.globalissues.org/news/feed',"http://rss.cnn.com/rss/edition_world.rss","http://feeds.washingtonpost.com/rss/world",
+"http://feeds.feedburner.com/time/world","https://www.cbsnews.com/latest/rss/world","https://www.vox.com/rss/world/index.xml",
+"https://www.brookings.edu/topic/international-affairs/feed/","https://www.dailytelegraph.com.au/news/world/rss"`
 
 
 ### Copyright Tecton February 2,2019 All rights Reserved
